@@ -7,5 +7,6 @@ RUN set -eux; \
     curl -sSL https://github.com/webdevops/go-crond/releases/download/${GO_CROND_VERSION}/go-crond-64-linux -o /usr/local/bin/go-crond; \
     chmod +x /usr/local/bin/go-crond;
 
-CMD ["go-crond"]
+CMD ["go-crond", "--allow-unprivileged"]
 
+COPY  files/ /
