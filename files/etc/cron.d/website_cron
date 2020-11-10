@@ -1,1 +1,1 @@
-* * * * * root curl -sS ${GK_SITE_BASE_SERVER_URL}/cron
+* * * * * root curl -b /tmp/cookie.txt -c /tmp/cookie.txt -sS ${GK_SITE_BASE_SERVER_URL}/cron
