@@ -1,1 +1,1 @@
-* * * * * root curl -b /tmp/cookie.txt -c /tmp/cookie.txt -sS ${GK_SITE_BASE_SERVER_URL}/cron
+* * * * * root curl -b /tmp/cookie.txt -c /tmp/cookie.txt -H "User-Agent: GeoKretyCron/1.0.1" -sS ${GK_SITE_BASE_SERVER_URL}/cron
