@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.21
 
 ARG GO_CROND_VERSION=0.6.1
 
